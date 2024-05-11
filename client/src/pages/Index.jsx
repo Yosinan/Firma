@@ -2,8 +2,8 @@ import React from 'react'
 
 const Index = () => {
   return (
-    <div>
-      Main Dashboard
+    <div style={{textAlign:'center', paddingTop:'200px'}}>
+      Dashboard
     </div>
   )
 }
