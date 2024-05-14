@@ -13,7 +13,7 @@ const defaultState = {
     navbar: 'navbar-sticky',
     locale: 'en',
     sidebar: false,
-    pageTitle: '',
+    pageTitle: 'Firma Admin Template',
     languageList: [
         { code: 'zh', name: 'Chinese' },
         { code: 'da', name: 'Danish' },
@@ -134,7 +134,7 @@ const themeConfigSlice = createSlice({
         },
 
         setPageTitle(state, { payload }) {
-            document.title = `${payload} | VRISTO - Multipurpose Tailwind Dashboard Template`;
+            document.title = `Firma | Admin Template`;
         },
     },
 });

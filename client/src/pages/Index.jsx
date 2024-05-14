@@ -34,8 +34,11 @@ const dataset = [
 
 const Index = () => {
   return (
-    
     <div>
+
+      <title>Dashboard</title>
+      
+
       <ul className="flex space-x-2 rtl:space-x-reverse">
         <li>
 
@@ -75,7 +78,7 @@ const Index = () => {
       </div>
     </div>
 
-)
+  )
 }
 
 export default Index;
