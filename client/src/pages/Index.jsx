@@ -35,25 +35,11 @@ const dataset = [
 const Index = () => {
   return (
     
-    // <div className="flex items-center justify-between mb-5">
-    //   <section className=' bg-white p-8 shadow dark:bg-black rounded-[20px]'>
-    //     <div className="flex items-center justify-between mb-5">
-    //       <h5 className="font-semibold text-lg dark:text-white-light">All Tenders</h5>
-    //       <button type="button" className="font-semibold bg-[#3328a8] text-white px-5 py-3 cursor-pointer rounded-full hover:bg-[#3328a8]/90">
-    //         Add new Tender
-    //       </button>
-    //     </div>
-    //     <Table />
-
-    //   </section>
-
-    //   </div>
     <div>
       <ul className="flex space-x-2 rtl:space-x-reverse">
         <li>
 
           <NavLink to="/">{('  Dashboard')}</NavLink>
-
 
         </li>
         <li className="before:content-['/'] ltr:before:mr-2 rtl:before:ml-2">
